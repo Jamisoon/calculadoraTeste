@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto';
+}
+#tela{
+    width: 250px;
+    height: 35px;
+    background: rgb(39, 71, 7);
+    margin-left: 25px ;
+    border-radius: 5px;
+ 
+}
+#conteudo{
+    background:rgb(226, 226, 229);
+    margin: 50px auto;
+    border-radius: 5px;
+    border:solid rgb(199, 199, 199);
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.205);
+   
+}
+#botoes{
+ 
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    margin-left: 35px;
+    margin-top: 70px;
+
+}
+
+.botao-numero{
+    margin-bottom: 10px;
+    width: 50px;
+    height: 38px;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 3px;
+    background:#ccc;
+}
+.botao-numero:hover{
+    background: rgb(150, 149, 149);
+}
+h2{
+    text-align: center;
+    line-height: 35px;
+    color: white;
+  
+
+
+}
+p{
+    background-color: rgb(61, 85, 38);
+    color: white;
+    width: 180px;
+    height: 17px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: .7em;
+    padding: 3px;   
+}
+#h2-div{
+    height: 35px;
+}
